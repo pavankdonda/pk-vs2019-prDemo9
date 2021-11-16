@@ -33,6 +33,7 @@ namespace pk_vs2019_prDemo9
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("welcome to the world!");
                 });
             });
         }
